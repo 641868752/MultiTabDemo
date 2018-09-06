@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3A6E54CD176FD754E60A530C /* Pods_MultiTabDeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCC61C7BB2DA22213B33B05 /* Pods_MultiTabDeo.framework */; };
+		D01847D22140CA350048718A /* HomePageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847C82140CA350048718A /* HomePageConfig.swift */; };
+		D01847D32140CA350048718A /* HomePageViewController+CallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847CA2140CA350048718A /* HomePageViewController+CallBack.swift */; };
+		D01847D42140CA350048718A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847CB2140CA350048718A /* HomePageViewController.swift */; };
+		D01847D52140CA350048718A /* HomePageViewController+delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847CC2140CA350048718A /* HomePageViewController+delegate.swift */; };
+		D01847D62140CA350048718A /* HomeSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847CD2140CA350048718A /* HomeSubViewController.swift */; };
+		D01847D72140CA350048718A /* HomeSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01847CE2140CA350048718A /* HomeSubViewController.xib */; };
+		D01847D82140CA350048718A /* HomeScrollMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847D02140CA350048718A /* HomeScrollMenuView.swift */; };
+		D01847D92140CA350048718A /* HomeTopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01847D12140CA350048718A /* HomeTopContainerView.swift */; };
 		D0D6A04B213EBCA700E5E0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A04A213EBCA700E5E0E4 /* AppDelegate.swift */; };
 		D0D6A04D213EBCA700E5E0E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A04C213EBCA700E5E0E4 /* ViewController.swift */; };
 		D0D6A050213EBCA700E5E0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D6A04E213EBCA700E5E0E4 /* Main.storyboard */; };
@@ -15,14 +23,6 @@
 		D0D6A055213EBCA900E5E0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D6A053213EBCA900E5E0E4 /* LaunchScreen.storyboard */; };
 		D0D6A060213EBCA900E5E0E4 /* MultiTabDeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A05F213EBCA900E5E0E4 /* MultiTabDeoTests.swift */; };
 		D0D6A06B213EBCAA00E5E0E4 /* MultiTabDeoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A06A213EBCAA00E5E0E4 /* MultiTabDeoUITests.swift */; };
-		D0D6A098213EBEB300E5E0E4 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A093213EBEB300E5E0E4 /* HomePageViewController.swift */; };
-		D0D6A099213EBEB300E5E0E4 /* HomePageViewController+delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A094213EBEB300E5E0E4 /* HomePageViewController+delegate.swift */; };
-		D0D6A09A213EBEB300E5E0E4 /* HomeTopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A095213EBEB300E5E0E4 /* HomeTopContainerView.swift */; };
-		D0D6A09B213EBEB300E5E0E4 /* HomePageViewController+CallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A096213EBEB300E5E0E4 /* HomePageViewController+CallBack.swift */; };
-		D0D6A09C213EBEB300E5E0E4 /* HomeScrollMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A097213EBEB300E5E0E4 /* HomeScrollMenuView.swift */; };
-		D0D6A09E213EBF1400E5E0E4 /* HomePageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A09D213EBF1400E5E0E4 /* HomePageConfig.swift */; };
-		D0D6A0A5213F761500E5E0E4 /* HomeSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6A0A3213F761500E5E0E4 /* HomeSubViewController.swift */; };
-		D0D6A0A6213F761500E5E0E4 /* HomeSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D6A0A4213F761500E5E0E4 /* HomeSubViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,14 @@
 		1A8C79E6003C2951C4E14B8B /* Pods-MultiTabDeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTabDeo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiTabDeo/Pods-MultiTabDeo.release.xcconfig"; sourceTree = "<group>"; };
 		1BCC61C7BB2DA22213B33B05 /* Pods_MultiTabDeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTabDeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		771BDCC9C69ECEAC2183EB78 /* Pods-MultiTabDeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTabDeo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiTabDeo/Pods-MultiTabDeo.debug.xcconfig"; sourceTree = "<group>"; };
+		D01847C82140CA350048718A /* HomePageConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageConfig.swift; sourceTree = "<group>"; };
+		D01847CA2140CA350048718A /* HomePageViewController+CallBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomePageViewController+CallBack.swift"; sourceTree = "<group>"; };
+		D01847CB2140CA350048718A /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		D01847CC2140CA350048718A /* HomePageViewController+delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomePageViewController+delegate.swift"; sourceTree = "<group>"; };
+		D01847CD2140CA350048718A /* HomeSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSubViewController.swift; sourceTree = "<group>"; };
+		D01847CE2140CA350048718A /* HomeSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSubViewController.xib; sourceTree = "<group>"; };
+		D01847D02140CA350048718A /* HomeScrollMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScrollMenuView.swift; sourceTree = "<group>"; };
+		D01847D12140CA350048718A /* HomeTopContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTopContainerView.swift; sourceTree = "<group>"; };
 		D0D6A047213EBCA700E5E0E4 /* MultiTabDeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTabDeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D6A04A213EBCA700E5E0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D6A04C213EBCA700E5E0E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,14 +67,6 @@
 		D0D6A066213EBCAA00E5E0E4 /* MultiTabDeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTabDeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D6A06A213EBCAA00E5E0E4 /* MultiTabDeoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabDeoUITests.swift; sourceTree = "<group>"; };
 		D0D6A06C213EBCAA00E5E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0D6A093213EBEB300E5E0E4 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		D0D6A094213EBEB300E5E0E4 /* HomePageViewController+delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomePageViewController+delegate.swift"; sourceTree = "<group>"; };
-		D0D6A095213EBEB300E5E0E4 /* HomeTopContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTopContainerView.swift; sourceTree = "<group>"; };
-		D0D6A096213EBEB300E5E0E4 /* HomePageViewController+CallBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomePageViewController+CallBack.swift"; sourceTree = "<group>"; };
-		D0D6A097213EBEB300E5E0E4 /* HomeScrollMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScrollMenuView.swift; sourceTree = "<group>"; };
-		D0D6A09D213EBF1400E5E0E4 /* HomePageConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageConfig.swift; sourceTree = "<group>"; };
-		D0D6A0A3213F761500E5E0E4 /* HomeSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSubViewController.swift; sourceTree = "<group>"; };
-		D0D6A0A4213F761500E5E0E4 /* HomeSubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSubViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D01847C62140CA350048718A /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D01847C72140CA350048718A /* Config */,
+				D01847C92140CA350048718A /* VC */,
+				D01847CF2140CA350048718A /* View */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		D01847C72140CA350048718A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D01847C82140CA350048718A /* HomePageConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D01847C92140CA350048718A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D01847CA2140CA350048718A /* HomePageViewController+CallBack.swift */,
+				D01847CB2140CA350048718A /* HomePageViewController.swift */,
+				D01847CC2140CA350048718A /* HomePageViewController+delegate.swift */,
+				D01847CD2140CA350048718A /* HomeSubViewController.swift */,
+				D01847CE2140CA350048718A /* HomeSubViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D01847CF2140CA350048718A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D01847D02140CA350048718A /* HomeScrollMenuView.swift */,
+				D01847D12140CA350048718A /* HomeTopContainerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D0D6A03E213EBCA700E5E0E4 = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +167,7 @@
 		D0D6A049213EBCA700E5E0E4 /* MultiTabDeo */ = {
 			isa = PBXGroup;
 			children = (
-				D0D6A092213EBEB300E5E0E4 /* source */,
+				D01847C62140CA350048718A /* source */,
 				D0D6A04A213EBCA700E5E0E4 /* AppDelegate.swift */,
 				D0D6A04C213EBCA700E5E0E4 /* ViewController.swift */,
 				D0D6A04E213EBCA700E5E0E4 /* Main.storyboard */,
@@ -155,46 +194,6 @@
 				D0D6A06C213EBCAA00E5E0E4 /* Info.plist */,
 			);
 			path = MultiTabDeoUITests;
-			sourceTree = "<group>";
-		};
-		D0D6A092213EBEB300E5E0E4 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				D0D6A0A2213F75E800E5E0E4 /* View */,
-				D0D6A0A1213F75E000E5E0E4 /* Config */,
-				D0D6A0A0213F75D700E5E0E4 /* VC */,
-			);
-			name = source;
-			path = ../../../source;
-			sourceTree = "<group>";
-		};
-		D0D6A0A0213F75D700E5E0E4 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				D0D6A093213EBEB300E5E0E4 /* HomePageViewController.swift */,
-				D0D6A096213EBEB300E5E0E4 /* HomePageViewController+CallBack.swift */,
-				D0D6A094213EBEB300E5E0E4 /* HomePageViewController+delegate.swift */,
-				D0D6A0A3213F761500E5E0E4 /* HomeSubViewController.swift */,
-				D0D6A0A4213F761500E5E0E4 /* HomeSubViewController.xib */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		D0D6A0A1213F75E000E5E0E4 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				D0D6A09D213EBF1400E5E0E4 /* HomePageConfig.swift */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		D0D6A0A2213F75E800E5E0E4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D0D6A097213EBEB300E5E0E4 /* HomeScrollMenuView.swift */,
-				D0D6A095213EBEB300E5E0E4 /* HomeTopContainerView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		D372585A715A032828CD7DBB /* Pods */ = {
@@ -312,7 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D6A0A6213F761500E5E0E4 /* HomeSubViewController.xib in Resources */,
+				D01847D72140CA350048718A /* HomeSubViewController.xib in Resources */,
 				D0D6A055213EBCA900E5E0E4 /* LaunchScreen.storyboard in Resources */,
 				D0D6A052213EBCA900E5E0E4 /* Assets.xcassets in Resources */,
 				D0D6A050213EBCA700E5E0E4 /* Main.storyboard in Resources */,
@@ -379,15 +378,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D6A0A5213F761500E5E0E4 /* HomeSubViewController.swift in Sources */,
-				D0D6A09B213EBEB300E5E0E4 /* HomePageViewController+CallBack.swift in Sources */,
-				D0D6A099213EBEB300E5E0E4 /* HomePageViewController+delegate.swift in Sources */,
+				D01847D62140CA350048718A /* HomeSubViewController.swift in Sources */,
 				D0D6A04D213EBCA700E5E0E4 /* ViewController.swift in Sources */,
+				D01847D52140CA350048718A /* HomePageViewController+delegate.swift in Sources */,
+				D01847D82140CA350048718A /* HomeScrollMenuView.swift in Sources */,
+				D01847D32140CA350048718A /* HomePageViewController+CallBack.swift in Sources */,
+				D01847D22140CA350048718A /* HomePageConfig.swift in Sources */,
+				D01847D42140CA350048718A /* HomePageViewController.swift in Sources */,
 				D0D6A04B213EBCA700E5E0E4 /* AppDelegate.swift in Sources */,
-				D0D6A09E213EBF1400E5E0E4 /* HomePageConfig.swift in Sources */,
-				D0D6A09A213EBEB300E5E0E4 /* HomeTopContainerView.swift in Sources */,
-				D0D6A09C213EBEB300E5E0E4 /* HomeScrollMenuView.swift in Sources */,
-				D0D6A098213EBEB300E5E0E4 /* HomePageViewController.swift in Sources */,
+				D01847D92140CA350048718A /* HomeTopContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
